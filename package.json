@@ -2,7 +2,7 @@
   "name": "pays",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://captainmoh.github.io/pays/public/index.html",
+  "homepage": "https://github.com/captainMoh/pays/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -18,8 +18,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

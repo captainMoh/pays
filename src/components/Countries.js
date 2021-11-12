@@ -33,6 +33,10 @@ const Countries = () => {
 
     return (
         <div className="countries">
+        {/*<div className="rechercher">
+            <input type="text" placeholder="Entrez un pays"/>
+            <button>Rechercher</button>
+        </div>*/}
         <div className="sort-container">
             <input type="range" min="1" max="250" 
                 value={rangeValue}
